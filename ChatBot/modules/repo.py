@@ -6,13 +6,13 @@ from ChatBot import app
 async def start(_, msg):
     await msg.reply_photo(
         photo="https://i.postimg.cc/FF2Jv8D0/ec107964b90c959da231293998b6d73e.jpg",
-        caption="""Hey there, I'm Aaru, your AI chatbot. ♥︎
+        caption="""Hey there, I'm Lana, your AI chatbot. ♥︎
 
 If you want my bot repo, click below to get the source code.
 
-Powered by @CodeSearchDev ✨""",
+Powered by @BotVerseRavi ✨""",
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/ChatWithDevRobot"),
-             InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/CodeSearchDev/AaruChatBot")]
+            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/BotVerseRavi"),
+             InlineKeyboardButton("ʀᴇᴘᴏ", url="https://t.me/Unknown_RK01")]
         ])
     )
