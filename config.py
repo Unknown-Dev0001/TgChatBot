@@ -9,8 +9,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = int(getenv("OWNER_ID", None))
 MONGO_URL = getenv("MONGO_URL", None)
 AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", None))
-FSUB = getenv("FSUB", True)
-OWNER_ID = int(getenv("OWNER_ID", None))
+FSUB = getenv("FSUB", "False") == "True"
 WEB_APP = getenv("WEB_APP", False) 
 
 
