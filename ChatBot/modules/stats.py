@@ -19,7 +19,7 @@ async def stats(client: app, message: Message):
             [
                 [
                     InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url="https://t.me/LanaxChatxBot?startgroup=true"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Unknown_RK01"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/BotVerseRavi"),
                 ]
             ]
         )
